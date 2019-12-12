@@ -1,0 +1,172 @@
+/* GENERAL STYLE */
+/* 
+----------- MOBILE_FIRST -----------
+--------- VIEWPORT - 320PX --------- 
+*/
+html {
+    font-family: Dinn Next Light;
+}
+
+main h1 {
+    font-family: Dinn Next Light;
+    color: #333;
+    margin-bottom: 1em
+}
+
+main p {
+    color: #444;
+    font-size: 1.2em;
+    line-height: 1.4em;
+    font-weight: 600;
+    text-align: left;
+    margin: 0 1em;
+}
+
+main div {
+    margin-top: 0;
+    margin: 4em 0;
+    text-align: center;
+}
+
+div.editorial {
+    margin-top: 0;
+}
+
+img {
+    width: 100%;
+}
+
+.editorial img {
+    margin-bottom: 2em;
+}
+
+.editorial__paragraph {
+    text-align: center;
+}
+
+.chapter__img {
+    width: 80%;
+    -webkit-box-shadow: 5px 5px 0px 1px rgb(206, 206, 206);
+    -moz-box-shadow: 5px 5px 0px 1px rgb(206, 206, 206);
+    box-shadow: 5px 5px 0px 1px rgb(206, 206, 206);
+}
+
+.separador_interno {
+    width: 36%;
+}
+
+.chapter__title {
+    font-size: 1.6em;
+}
+
+.chapter__desc {
+    color: #666;
+    margin: 1.5em;
+}
+
+.chapter__paragraph {
+    opacity: 0;
+    transition-duration: 1000ms;
+    margin-bottom: 2em;
+    display: none;
+}
+
+.btn__collapse {
+    display: block;
+    text-decoration: none;
+    padding: 1em;
+    border-radius: .3em;
+    background-color: #ddd;
+    color: #000;
+    cursor: pointer;
+    font-weight: 700;
+    width: 40%;
+    margin: 0.5em auto;
+}
+
+/* SEPARADOR */
+.separador {
+    width: 90%;
+    margin: 0 auto;
+}
+
+/* MEDIA QUERIES */
+/* Mobile md - 375px */
+@media screen and (min-width: 375px) {
+    div p {
+        /* margin-left: 1em;
+        margin-right: 1em; */
+        margin: 0 1em;
+    }
+
+    /* BOTÃO COLLAPSE */
+    .btn__collapse {
+        font-size: 1.1em;
+    }
+}
+
+@media screen and (min-width: 425px) {
+    main p {
+        font-size: 1.3em;
+    }
+
+    .editorial__title {
+        font-size: 2.2em;
+        margin-bottom: .8em
+    }
+
+    .chapter__title {
+        font-size: 1.7em;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .separador_interno {
+        width: 20%;
+    }
+
+    .separador {
+        width: 55%;
+    }
+
+    div p {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .chapter__desc {
+        margin: 1.5em auto;
+        width: 70%;
+    }
+
+    .btn__collapse {
+        width: 20%;
+    }
+
+    .chapter__img {
+        width: 70%;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    main p {
+        font-size: 1.2em;
+        width: 70%;
+    }
+
+    .editorial__title {
+        font-size: 2.5em;
+    }
+
+    .chapter__desc {
+        width: 65%;
+    }
+
+    .separador_interno {
+        width: 15%;
+    }
+
+    .separador {
+        width: 30%;
+    }
+}

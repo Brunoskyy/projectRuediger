@@ -1,0 +1,15 @@
+/* FONT FACE */
+@font-face {
+    font-family: "Dinn Next Black";
+    src: url("../fonts/DINNextLTPro-Black.ttf");
+}
+
+@font-face {
+    font-family: "Dinn Next Bold";
+    src: url("../fonts/DINNextLTPro-Bold.ttf");
+}
+
+@font-face {
+    font-family: "Dinn Next Light";
+    src: url("../fonts/DINNextLTPro-UltraLight.ttf");
+}
