@@ -7,6 +7,10 @@ html {
     font-family: Dinn Next Light;
 }
 
+.block {
+    display: block;
+}
+
 main h1 {
     font-family: Dinn Next Light;
     color: #333;
@@ -41,7 +45,7 @@ img {
 }
 
 .editorial__paragraph {
-    text-align: center;
+    text-align: left;
 }
 
 .chapter__img {
